@@ -16,6 +16,7 @@ include_directories(SYSTEM
 
 add_library(${PROJECT_NAME}
   src/PositionCommandInterface.cpp
+  src/CartesianVelocityInterface.cpp
   src/TriggerableInterface.cpp
 )
 
